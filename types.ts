@@ -59,6 +59,7 @@ export interface PricingPlan extends CosmicObject {
     is_popular?: boolean;
     button_text?: string;
     button_link?: string;
+    display_order?: number;
   };
 }
 
